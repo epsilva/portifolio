@@ -39,7 +39,7 @@ export default function DetailItem() {
                 <ContainerAvatar>
                     <Avatar name={work.company} src={work.img} round />
                     <TitleCompany>{work.company}</TitleCompany>
-                    {work.freela && <Tag msg="Freelancer" />}
+                    {work.freela && <Tag msg="Freelancers" />}
                 </ContainerAvatar>
                 <ContainerDetail>
                     <Function>{work.function}</Function>
